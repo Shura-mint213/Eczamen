@@ -1,0 +1,41 @@
+﻿<Page x:Class="Shvetsov_Alexandr_PKS_304.AddPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Shvetsov_Alexandr_PKS_304"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddPage">
+
+    <Grid Background="white">
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="300,390,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Height="23" Margin="40,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,70,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>
+        <TextBox x:Name="TypeTextBox" HorizontalAlignment="Left" Height="23" Margin="40,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="CoverTextBox" HorizontalAlignment="Left" Height="23" Margin="40,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,121,0,0" TextWrapping="Wrap" Text="Type" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,170,0,0" TextWrapping="Wrap" Text="Coverage" VerticalAlignment="Top"/>
+        <TextBox x:Name="PriceTextBox" HorizontalAlignment="Left" Height="23" Margin="40,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,219,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="65,45,0,0" TextWrapping="Wrap" Text="Opiration" VerticalAlignment="Top"/>
+        <Button Content="Дабавать" HorizontalAlignment="Left" Margin="65,285,0,0" VerticalAlignment="Top" Width="75" Click="AddOpiration_Button_Click"/>
+        <TextBox x:Name="NameID_TVTextBox" HorizontalAlignment="Left" Height="23" Margin="274,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="CoverageID_TVTextBox" HorizontalAlignment="Left" Height="23" Margin="274,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DescriptionsTextBox" HorizontalAlignment="Left" Height="23" Margin="274,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="274,178,0,0" TextWrapping="Wrap" Text="Descriptions" VerticalAlignment="Top"/>
+        <TextBox x:Name="LaunchTextBox" HorizontalAlignment="Left" Height="23" Margin="274,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="300,45,0,0" TextWrapping="Wrap" Text="TV_channel" VerticalAlignment="Top"/>
+        <Button Content="Дабавать" HorizontalAlignment="Left" Margin="299,293,0,0" VerticalAlignment="Top" Width="75" Click="AddTV_channel_Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="274,78,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="275,129,0,0" TextWrapping="Wrap" Text="Coverage" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="275,227,0,0" TextWrapping="Wrap" Text="Launch" VerticalAlignment="Top"/>
+        <TextBox x:Name="ID_TVKopiratorTextBox" HorizontalAlignment="Left" Height="23" Margin="543,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="IDKopiratorTextBox" HorizontalAlignment="Left" Height="23" Margin="543,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="543,148,0,0" TextWrapping="Wrap" Text="ID_TV" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="568,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Union"/>
+        <TextBlock HorizontalAlignment="Left" Margin="543,197,0,0" TextWrapping="Wrap" Text="ID_Operation" VerticalAlignment="Top"/>
+        <Button Content="Дабавать" HorizontalAlignment="Left" Margin="568,260,0,0" VerticalAlignment="Top" Width="75" Click="AddUnion_Button_Click"/>
+
+    </Grid>
+</Page>

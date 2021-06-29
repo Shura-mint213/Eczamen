@@ -1,0 +1,16 @@
+﻿<Page x:Class="Shvetsov_Alexandr_PKS_304.FirstPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Shvetsov_Alexandr_PKS_304"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="FirstPageШвецов Алекснадр Иванович ПКС-304">
+
+    <Grid Background="White">
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"><Run Text="Швецов Алксандр "/><Run Text="Иванович ПКС-304"/><LineBreak/></TextBlock>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="345,220,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Просмотр" HorizontalAlignment="Left" Margin="345,245,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+    </Grid>
+</Page>
